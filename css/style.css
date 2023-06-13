@@ -46,7 +46,7 @@ a {
 	color: inherit;
 }
 
-.flex-color {
+.flex-center {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -63,13 +63,34 @@ a {
 	font-weight: 400;
 	font-family: var(--plus-jakarta-sans);
 
+	color: var(--primary-color);
+	opacity: 0.8;
+
+	letter-spacing: -0.01em;
+}
+
+.sushi__title {
+	font-size: 64px;
+	font-weight: 600;
+	font-family: var(--playfair-display);
+
+	color: var(--secondary-color);
+
+	margin: 16px;
+}
+
+.sushi__description {
+	font-size: 18px;
+	font-weight: 400;
+	font-family: var(--plus-jakarta-sans);
+
 	line-height: 36px;
 	letter-spacing: -0.01em;
 
 	color: var(--secondary-color);
 	opacity: 0.8;
 
-	margin: 32px 0px;
+	margin: 32px 0;
 }
 
 /* Hide scroll for Chrome, Safari and Opera */
